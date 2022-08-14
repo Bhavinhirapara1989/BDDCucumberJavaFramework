@@ -26,6 +26,7 @@ public class RegistrationSteps extends DriverManager {
     @Then("^I enter email as a \"([^\"]*)\"$")
     public void i_enter_email_as_a(String email) throws Throwable {
         registrationPage.enterEmail(email);
+        //Simple comment
 
     }
 
